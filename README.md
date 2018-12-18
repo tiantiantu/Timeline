@@ -19,11 +19,11 @@ Patient A has three visits: visit 1 contains two codes: 174, 250; visit 2 contai
 
 Patient B has two visits: visit 1 contains one code 350; visit 2 is associated with a label 2. The time interval between visit 1 and visit 2 is 3.
 
-Then visitfile is a npy file of a list [  [ ['174', '250'], ['274'] ]  ,  [ ['350'] ]  ]
+Then visitfile is a .npy file of a list [  [ ['174', '250'], ['274'] ]  ,  [ ['350'] ]  ]
 
-labelfile is a npy file of a list [1,2]
+labelfile is a .npy file of a list [1,2]
 
-gapfile is a npy file of a list [ [100, 15], [3] ]
+gapfile is a .npy file of a list [ [100, 15], [3] ]
 
 The following example command will run the code:
 
