@@ -9,9 +9,9 @@ I used the following environment for the implementation:
 * sklearn==0.19.2
 
 To run the model, three files are required: 
-* visitfile: A nested list including patients which are lists including visits which are list including codes.
-* labelfile: A list including labels.
-* gapfile:  A nested list including patients which are lists including time interval between a past visit and the visit of prediction.
+* visitfile: a nested list including patients which are lists including visits which are list including codes.
+* labelfile: a list including labels.
+* gapfile:  a nested list including patients which are lists including time interval between a past visit and the visit of prediction.
 
 As an example, assume dataset contains two patients A and B: 
 
