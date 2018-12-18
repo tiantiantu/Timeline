@@ -15,9 +15,9 @@ To run the model, three files are required:
 
 As an example, assume dataset contains two patients A and B: 
 
-Patient A has three visits: visit 1 contains two codes: 174, 250; visit 2 contains one code: 274; visit 3 is associated with a label 1. The time interval between visit 1 and visit 3 is 100; the time interval between visit 2 and visit 3 is 15.
+Patient A has three visits: visit 1 contains two codes: 174, 250; visit 2 contains one code: 274; visit 3 (current visit) is associated with a label 1. The time interval between visit 1 and visit 3 is 100; the time interval between visit 2 and visit 3 is 15.
 
-Patient B has two visits: visit 1 contains one code 350; visit 2 is associated with a label 2. The time interval between visit 1 and visit 2 is 3.
+Patient B has two visits: visit 1 contains one code 350; visit 2 (current visit) is associated with a label 2. The time interval between visit 1 and visit 2 is 3.
 
 Then visitfile is a .npy file of a list [  [ ['174', '250'], ['274'] ]  ,  [ ['350'] ]  ]
 
